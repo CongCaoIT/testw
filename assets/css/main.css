@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 30px;
+    color: blue;
+    text-shadow: 0 0 4px red;
+}
+p{
+    font-size: 16px;
+    color: blue;
+    text-shadow: 0 0 4px red;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+div {
+    width: 240px;
+    background-color: #fff;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0% {
+        background-color: #fff;
+    }
+    14.28% {
+        background-color: red;
+    }
+    28.56% {
+        background-color: orange;
+    }
+    42.84% {
+        background-color: yellow;
+    }
+    57.28% {
+        background-color: green;
+    }
+    71.4% {
+        background-color: rgb(47, 134, 134);
+    }
+    85.68% {
+        background-color: rgb(24, 24, 137);
+    }
+    100% {
+        background-color: purple;
+    }
+}
+
+.img img {
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 3px black;
+    margin-left: 20px;
+}
